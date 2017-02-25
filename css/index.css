@@ -1,0 +1,309 @@
+/*自带的基础css*/
+
+html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	background: #eee;
+	font-family: "微软雅黑", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	/*display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;*/
+}
+
+
+/*自带的基础css结束*/
+
+
+/*音乐*/
+
+#music {
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 5;
+}
+
+#music .music_bg {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#music .music_pic {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	animation: musicRun 3s infinite linear;
+}
+
+@keyframes musicRun {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+/*音乐结束*/
+
+
+/*声明*/
+
+p.copy {
+	width: 100%;
+	position: fixed;
+	bottom: 1%;
+	left: 0;
+	text-align: center;
+	color: white;
+	z-index: 1;
+	font-size: 4.5vw;
+}
+
+
+/*声明结束*/
+
+
+/*第一屏开始*/
+
+.swiper-slide.one {
+	background: url(../img/onebg.png);
+	background-size: 100% 100%;
+}
+
+.swiper-slide.one .top {
+	width: 70%;
+	height: 50%;
+	border: 8px solid white;
+	margin: 0 auto;
+	margin-top: 10%;
+	overflow: hidden;
+}
+
+.swiper-slide.one .top img {
+	width: 100%;
+}
+
+.swiper-slide.one .bottom {
+	width: 70%;
+	height: 30%;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
+	margin-top: 5%;
+	position: relative;
+}
+
+.swiper-slide.one .bottom .jiezhi {
+	width: 35%;
+	position: absolute;
+	top: 0px;
+	left: 5%;
+}
+
+.swiper-slide.one .bottom .marry {
+	width: 100%;
+	position: absolute;
+	top: 13%;
+	left: 0;
+}
+
+.swiper-slide.one .bottom .time {
+	width: 50%;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	margin-left: -25%;
+}
+
+
+/*第一屏结束*/
+
+
+/*第二屏开始*/
+
+.swiper-slide.two {
+	background: url(../img/twobg.jpg);
+	background-size: 100% 100%;
+}
+
+.swiper-slide.two .left {
+	width: 30%;
+	height: 20%;
+	border: 9px solid #ffebeb;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.swiper-slide.two .left img {
+	width: 100%;
+}
+
+.swiper-slide.two .right {
+	width: 60%;
+	height: 80%;
+	border: 9px solid #ffebeb;
+	background: #FFEBEB;
+	position: absolute;
+	right: 5%;
+	top: 10%;
+}
+
+.swiper-slide.two .right .top {
+	width: 100%;
+	height: 60%;
+	overflow: hidden;
+	margin-bottom: 3%;
+}
+
+.swiper-slide.two .right .top img {
+	width: 100%;
+}
+
+.swiper-slide.two .right>img {
+	width: 100%;
+	float: left;
+	margin-top: 1%;
+}
+
+.swiper-slide.two .windmill {
+	width: 30%;
+	position: absolute;
+	right: 2%;
+	top: 43%;
+}
+
+
+/*第二屏结束*/
+
+
+/*第三屏开始*/
+
+.swiper-slide.three {
+	background: url(../img/twobg.jpg);
+	background-size: 100% 100%;
+}
+
+.swiper-slide.three>img.dog {
+	position: absolute;
+	right: 21%;
+	top: 53%;
+	width: 30%;
+}
+
+.swiper-slide.three>img.aini {
+	width: 70%;
+	position: absolute;
+	top: 71%;
+	left: 24%;
+}
+
+.swiper-slide.three>img.yibeizi {
+	width: 70%;
+	position: absolute;
+	top: 84%;
+	left: 33%;
+}
+
+.swiper-slide.three .top {
+	width: 70%;
+	height: 52%;
+	margin: 0 auto;
+	margin-top: 15%;
+	border: 9px solid #ffebeb;
+	overflow: hidden;
+}
+
+.swiper-slide.three .top>img {
+	width: 100%;
+}
+/*第三屏结束*/
+
+
+/*第四屏开始*/
+.swiper-slide.four{
+	background: url(../img/twobg.jpg);
+	background-size: 100% 100%;
+}
+.swiper-slide.four div#box{
+	margin: 0 auto;
+	margin-top: 8%;
+	width: 80%;
+	height: 70%;
+	border: 9px solid #ffebeb;
+}
+.swiper-slide.four div#box img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide.four div#box .topleft{
+	width: 50%;
+	height: 30%;
+	float: left;
+}
+.swiper-slide.four div#box .topright{
+	width: 50%;
+	height: 60%;
+	float: right;
+	
+}
+.swiper-slide.four div#box .bottomleft{
+	width: 50%;
+	height:70%;
+	float: left;
+	
+}
+.swiper-slide.four div#box .bottomright{
+	width: 50%;
+	float: right;
+	height: 40%;
+	
+}
+.swiper-slide.four div.wenzi{
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 80%;
+	height: 10%;
+}
+.swiper-slide.four div.wenzi img{
+	width:50% ;
+	float: left;
+}
+/*第四屏结束*/
